@@ -94,6 +94,8 @@ a:hover {
   width: 36px;
   height: 36px;
   flex-shrink: 0;
+  object-fit: contain;
+  border-radius: var(--radius-sm);
 }
 
 .site-nav {
@@ -143,6 +145,8 @@ main {
   width: 80px;
   height: 80px;
   margin: 0 auto 1.25rem;
+  object-fit: contain;
+  border-radius: var(--radius-lg);
 }
 
 .hero h1 {
